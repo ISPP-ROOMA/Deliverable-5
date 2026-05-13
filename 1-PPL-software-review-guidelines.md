@@ -102,9 +102,8 @@
 | :--- | :--- | :--- |
 | Generación de notificaciones por eventos | El sistema debe generar automáticamente una notificación cuando ocurra un match o se reciba un mensaje (esto se ve en la pestaña notificaciones en el perfil). | Completado |
 | Visualización de Listado | El sistema debe permitir al usuario acceder a una pantalla o sección de "Notificaciones" donde se listen cronológicamente las notificaciones recibidas. | Completado |
-| Indicador de nuevas notificaciones | El sistema debe mostrar un indicador visual en la interfaz cuando existan notificaciones nuevas. | Completado |
 | Navegación Directa desde la notificación | El sistema debe redirigir al usuario a la pantalla específica del evento al interactuar con una notificación interna, evitando que el usuario tenga que buscar manualmente el mensaje o la solicitud dentro de la app. | Completado |
-| Actualización de Estado leída | El sistema debe marcar automáticamente la notificación como "Leída" cuando el usuario haga clic en ella o acceda a su enlace directo, permitiendo también al usuario marcar todas las notificaciones del listado como leídas de forma simultánea mediante una acción global. | Completado |
+| Actualización de Estado leída | El sistema debe eliminar automáticamente las notificaciones leídas cuando el usuario haga clic en ella o acceda a su enlace directo. | Completado |
 
 #### CU: Filtros avanzados para arrendador
 | Nombre | Descripción | Estado |
@@ -158,13 +157,14 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 | **CU Gestión de notificaciones:** Se identificó la falta de indicador global y borrado de avisos sin estado "leído"| Aclaración de que las notificaciones son una página más. Las notificaciones globales y persistentes están fuera de alcance.  | Se han anotado como mejoras futuras |
 | **CU Filtros avanzados para arrendador:** Faltan opciones específicas en la interfaz para filtrar (edad, género) y ordenar (fecha, reseñas) las solicitudes. | Corrección y mejora en la redacción de los Casos de Uso (CU), ya que esos criterios concretos no estaban contemplados en el alcance técnico inicial.  | Documentación (CU) actualizada y alineada con la funcionalidad real desarrollada. El comportamiento actual se considera válido. |
 | **CU Gestión de incidencias:** Se identificó un error al crear una incidencia por parte de los PUGS, en la que aparecía un error 400 | Se identificó la causa del error y se aplicó un parche para su corrección | El apartado de incidencias funciona correctamente |
+
 ### 3.2 Feedback del Profesor
 | Fallo / Mejora Identificada | Medida Correctiva Tomada |
 | :--- | :--- | :--- |
 | **Reporte de IA escueto:** Recibimos feedback asociado al reporte de IA, indicando que era necesario añadir ejemplos concretos de los usos, incluyendo explícitamente los prompts o conversaciones usadas | Se han incluido ejemplos explícitos del uso de la IA por todo el grupo, desde consultas tecnológicas hasta generación de imágenes |
-| **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Se corregido el error |
-| **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble | Se corregido este error |
-| **Problemas de validación de cuestionarios:** A la hora de validar los cuestionarios, no se indicaba el error explicito de validación, solo se mostraba un mensaje general | Se han añadido mensajes descriptivos para los errores de validación |
+| **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Se ha corregido el error |
+| **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble | Como se ha comentado antes, se aclara que las notificaciones son una única pantalla y aplicar notificaciones push en todas las funcionalidades queda fuera del alcance. Se ha mejorado la redacción de este CU |
+| **Problemas de validación de cuestionarios:** A la hora de validar los cuestionarios, no se indicaba el error explícito de validación, solo se mostraba un mensaje general | Se han añadido mensajes descriptivos para los errores de validación |
 ---
 
 ## 4. Datos de Prueba y Credenciales
