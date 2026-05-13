@@ -162,8 +162,8 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 | Fallo / Mejora Identificada | Medida Correctiva Tomada |
 | :--- | :--- |
 | **Reporte de IA escueto:** Recibimos feedback asociado al reporte de IA, indicando que era necesario añadir ejemplos concretos de los usos, incluyendo explícitamente los prompts o conversaciones usadas | Se han incluido ejemplos explícitos del uso de la IA por todo el grupo, desde consultas tecnológicas hasta generación de imágenes |
-| **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Se ha corregido el error |
-| **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble | Como se ha comentado antes, se aclara que las notificaciones son una única pantalla y aplicar notificaciones push en todas las funcionalidades queda fuera del alcance. Se ha mejorado la redacción de este CU |
+| **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Como se ha comentado antes, se aclara que las notificaciones son una única pantalla y aplicar notificaciones push en todas las funcionalidades queda fuera del alcance. Se ha mejorado la redacción de este CU |
+| **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble se identificaron errores de visualización| Se ha corregido este error |
 | **Problemas de validación de cuestionarios:** A la hora de validar los cuestionarios, no se indicaba el error explícito de validación, solo se mostraba un mensaje general | Se han añadido mensajes descriptivos para los errores de validación |
 ---
 
