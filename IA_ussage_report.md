@@ -124,7 +124,8 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Evalúa nuestro stack tecnológico actual basándote en que el equipo tiene experiencia previa en Java y React, pero solo 3 meses para el lanzamiento; ¿es la curva de aprendizaje asumible o deberíamos simplificar alguna tecnología?*
 
-        * *Analiza si esta arquitectura podrá soportar un incremento de carga de hasta 10.000 usuarios activos mensuales sin necesidad de una reescritura completa."*
+        * *Analiza si esta arquitectura podrá soportar un incremento de carga de hasta 10.000 usuarios activos mensuales sin necesidad de una reescritura completa."*<br>
+        <br>Se adjunta una conversación con ChatGPT en la que se pide asesoramiento acerca del stack tecnológico: https://gemini.google.com/share/179c15f8d6eb
 
 *   **Toma de Decisiones:** Asesoramiento técnico para elegir entre diferentes soluciones de programación basándose en las mejores prácticas de la industria (**Iván, Javi Clavijo**).
     * **Ejemplo**: *"Estamos debatiendo si implementar la lógica de chats mediante WebSockets o utilizando Server-Sent Events (SSE). Necesito que:*
