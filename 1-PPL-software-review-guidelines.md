@@ -1,4 +1,4 @@
-# Software Review Guidelines S3
+# Software Review Guidelines PPL
 
 ## 1. Acceso al Sistema y Versiones (Releases)
 
