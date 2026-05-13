@@ -28,8 +28,8 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 
         * *Asegúrate de que el resultado final cumpla estrictamente con las reglas de estilo de nuestra guía de Clean Code."*
      
-          ![Linting request](imagenes_uso_IA/linting_request.jpeg)
-          ![Linting reponse](imagenes_uso_IA/linting_reponse.png)
+          ![Linting request](IA_report_images/linting_request.png)
+          ![Linting reponse](IA_report_images/linting_reponse.jpeg)
 
        
 ### 2.2 Arquitectura Backend y Lógica de Negocio
@@ -43,7 +43,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Refactoriza cada módulo para asegurar que el código sea altamente cohesivo y desacoplado.*
 
         * *Al terminar cada fase, verifica que la implementación cumple con los requisitos técnicos definidos en el documento base."*<br>
-        <br> En este caso se adjunta un archivo de texto en la que se detalla completamente el proceso para añadir métricas a la aplicacion de rendimiento: 
+        <br> En este caso se adjunta un archivo de texto en la que se detalla completamente el proceso para añadir métricas a la aplicacion de rendimiento: ![Chat Métricas](IA_report_images/chat_metricas.txt)
           
 *   **Comunicación e Infraestructura:** Optimización de la capa de servicios para la comunicación entre el front y el back, además de la creación de archivos de configuración críticos como Dockerfiles para compilación nativa en Java (**Juan, Manuel**).
     * **Ejemplo**: *"Necesito resolver los problemas de latencia en la comunicación entre el frontend y el backend. Para ello:*
@@ -65,7 +65,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Revisa que la lógica de acceso no permita que un usuario autenticado pueda consultar datos de otros usuarios.*
 
         * *Sugiere las correcciones necesarias para garantizar la protección de los datos de los usuarios."*<br>
-        <br> ![security request](imagenes_uso_IA/security.jpeg)
+        <br> ![security request](IA_report_images/security.jpeg)
 
 ---
 
@@ -100,9 +100,9 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
         * *Explica la causa raíz del problema de forma clara.*
 
         * *Propón la corrección necesaria en el archivo YAML o en el script de despliegue para solucionar el fallo y evitar que el pipeline se detenga en futuras ejecuciones."*<br>
-        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_requst1.jpeg)
-        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_request2.jpeg)
-        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_reponse.jpeg)
+        <br> ![CI/CD request](IA_report_images/CI-CD_requst1.jpeg)
+        <br> ![CI/CD request](IA_report_images/CI-CD_request2.jpeg)
+        <br> ![CI/CD request](IA_report_images/CI-CD_reponse.jpeg)
 
 ---
 
