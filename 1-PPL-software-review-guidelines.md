@@ -160,7 +160,7 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 
 ### 3.2 Feedback del Profesor
 | Fallo / Mejora Identificada | Medida Correctiva Tomada |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **Reporte de IA escueto:** Recibimos feedback asociado al reporte de IA, indicando que era necesario añadir ejemplos concretos de los usos, incluyendo explícitamente los prompts o conversaciones usadas | Se han incluido ejemplos explícitos del uso de la IA por todo el grupo, desde consultas tecnológicas hasta generación de imágenes |
 | **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Se ha corregido el error |
 | **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble | Como se ha comentado antes, se aclara que las notificaciones son una única pantalla y aplicar notificaciones push en todas las funcionalidades queda fuera del alcance. Se ha mejorado la redacción de este CU |
@@ -198,4 +198,3 @@ Datos necesarios para poder realizar la revisión (usuarios, contraseñas o ejem
 Posibles requisitos necesarios para poder utilizar el sistema:
 * Activar acceso a la ubicación en el navegador
 * Permitir permisos de cámara para subir la foto de una incidencia si se está en móvil
-* Permitir el acceso a las notificaciones push al activar las notificaciones desde el perfil
