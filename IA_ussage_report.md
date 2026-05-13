@@ -11,11 +11,11 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 ### 2.1 Desarrollo Frontend y Experiencia de Usuario (UX/UI)
 *   **Generación y Estilizado:** Se han utilizado herramientas para la creación de componentes dinámicos y la aplicación de estilos CSS complejos, asegurando una interfaz moderna y funcional (**Dani, Juan, Jesús, Iván**).
     * **Ejemplo**: "_Necesito crear un componente de tarjeta (Card) dinámico en React para mostrar las incidencias del proyecto. La tarjeta debe incluir un badge de prioridad que cambie de color según el estado (crítico, medio, bajo) y un efecto de hover suave que eleve la tarjeta y cambie el borde. Utiliza CSS modular o Tailwind para asegurar un diseño minimalista y moderno, y asegúrate de que el componente sea totalmente responsive._"<br>
-      <br> Se adjunta enlace a una conversacion real que se utilizó para generar una primera version del componente para las Card: https://gemini.google.com/share/ce0179872689
+      <br> Se adjunta enlace a una conversación real que se utilizó para generar una primera versión del componente para las Card: https://gemini.google.com/share/ce0179872689
       
 *   **Cohesión Visual:** La IA ha sido clave para garantizar que el diseño sea consistente en todas las pantallas, detectando discrepancias visuales y sugiriendo ajustes de diseño (**Javier Clavijo, Iván**).
     * **Ejemplo**: "_Tengo este archivo CSS que define los estilos globales de mi aplicación y este nuevo componente que acabo de crear. Analiza ambos y dime si el nuevo componente mantiene la cohesión visual del proyecto, específicamente en el uso de las variables de color y sombras, así como el radio de los bordes y los espaciados internos._"<br>
-      <br> En primer lugar se pasó una primera version del css de la aplicacion a Gemini para detectar inconsistencias y puntos débiles: https://gemini.google.com/share/2398d83e75d6 
+      <br> En primer lugar se pasó una primera versión del css de la aplicación a Gemini para detectar inconsistencias y puntos débiles: https://gemini.google.com/share/2398d83e75d6 
       
 *   **Calidad del Código (Linting):** Se han corregido errores de sintaxis y formato mediante el análisis automático del linter, asegurando un código limpio y mantenible (**Guille**).
     * **Ejemplo**: *"He pasado el linter a mi proyecto de frontend y me devuelve varios errores de formato y sintaxis en estos archivos. Por favor:*
@@ -29,7 +29,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Asegúrate de que el resultado final cumpla estrictamente con las reglas de estilo de nuestra guía de Clean Code."*
      
           ![Linting request](IA_report_images/linting_request.png)
-          ![Linting reponse](IA_report_images/linting_reponse.jpeg)
+          ![Linting response](IA_report_images/linting_reponse.jpeg)
 
        
 ### 2.2 Arquitectura Backend y Lógica de Negocio
@@ -43,7 +43,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Refactoriza cada módulo para asegurar que el código sea altamente cohesivo y desacoplado.*
 
         * *Al terminar cada fase, verifica que la implementación cumple con los requisitos técnicos definidos en el documento base."*<br>
-        <br> En este caso se adjunta un archivo de texto en la que se detalla completamente el proceso para añadir métricas a la aplicacion de rendimiento: ![Chat Métricas](IA_report_images/chat_metricas.txt)
+        <br> En este caso se adjunta un archivo de texto en la que se detalla completamente el proceso para añadir métricas a la aplicación de rendimiento: ![Chat Métricas](IA_report_images/chat_metricas.txt)
           
 *   **Comunicación e Infraestructura:** Optimización de la capa de servicios para la comunicación entre el front y el back, además de la creación de archivos de configuración críticos como Dockerfiles para compilación nativa en Java (**Juan, Manuel**).
     * **Ejemplo**: *"Necesito resolver los problemas de latencia en la comunicación entre el frontend y el backend. Para ello:*
@@ -53,7 +53,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Configura los parámetros necesarios para que el contenedor pueda comunicarse correctamente con el servicio de base de datos en un entorno de staging.*
 
         * *Asegúrate de que la configuración sea escalable y siga las mejores prácticas de infraestructura como código."*<br>
-        <br> Se adjunta una conversación con Gemini donde se crea la base para el archivo Dockerfile de nuestra aplicacion: https://gemini.google.com/share/bec85d0603da
+        <br> Se adjunta una conversación con Gemini donde se crea la base para el archivo Dockerfile de nuestra aplicación: https://gemini.google.com/share/bec85d0603da
           
 *   **Seguridad:** Revisión asistida de rutas y endpoints para garantizar que la lógica de acceso sea segura y cumpla con los estándares de protección de datos (**Guille**).
     * **Ejemplo**: *"Actúa como un experto en ciberseguridad y seguridad en APIs. Analiza las siguientes rutas de mi controlador en el backend y verifica si existen vulnerabilidades. En concreto:*
@@ -90,7 +90,7 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
         * *Tras ejecutar los tests, analiza el reporte de cobertura de código e identifica qué funciones de la lógica de match han quedado sin testear.*
 
         * *Sugiere nuevos casos de prueba para cubrir esas zonas críticas y asegurar que ninguna lógica de negocio se quede sin validación automática."*<br>
-        <br> Se adjuta una conversación con ChatGPT que se utilizó como apoyo para los test E2E: https://chatgpt.com/share/6a044efb-b998-838e-bde0-055a386ab9bf
+        <br> Se adjunta una conversación con ChatGPT que se utilizó como apoyo para los test E2E: https://chatgpt.com/share/6a044efb-b998-838e-bde0-055a386ab9bf
           
 *   **Soporte en CI/CD:** Análisis y diagnóstico rápido de errores en los flujos de integración y despliegue continuo (GitHub Actions/Workflows), reduciendo drásticamente el tiempo de inactividad por fallos en el pipeline (**Guille**).
     * **Ejemplo**: *"Actúa como un experto en DevOps y automatización. He recibido un error de tipo 'exit code 1' en el paso de despliegue de mi flujo de GitHub Actions. Te adjunto los logs del fallo y el archivo YAML de configuración del workflow. Por favor:*
@@ -102,7 +102,7 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
         * *Propón la corrección necesaria en el archivo YAML o en el script de despliegue para solucionar el fallo y evitar que el pipeline se detenga en futuras ejecuciones."*<br>
         <br> ![CI/CD request](IA_report_images/CI-CD_requst1.jpeg)
         <br> ![CI/CD request](IA_report_images/CI-CD_request2.jpeg)
-        <br> ![CI/CD request](IA_report_images/CI-CD_reponse.jpeg)
+        <br> ![CI/CD responset](IA_report_images/CI-CD_reponse.jpeg)
 
 ---
 
@@ -115,7 +115,7 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
         * *Genera una estimación de crecimiento de usuarios a 12 meses proyectando un escenario conservador y uno optimista.*
 
         * *Calcula el punto de equilibrio (break-even point) para determinar en qué mes el proyecto será rentable."*<br>
-          <br>Se adjunta una conversación con Gemini en la que se pide asesoramiento sobre el analisis económico: https://gemini.google.com/share/60bd8e6dd292
+          <br>Se adjunta una conversación con Gemini en la que se pide asesoramiento sobre el análisis económico: https://gemini.google.com/share/60bd8e6dd292
           
 *   **Evaluación Tecnológica:** Comparativa de proveedores de pago y valoración de stacks tecnológicos basándose en la curva de aprendizaje del equipo y la escalabilidad del proyecto (**Manuel**).
     * **Ejemplo**: *"Necesitamos elegir una pasarela de pago para nuestro proyecto y definir si el stack actual es el adecuado para escalar. Realiza lo siguiente:*
@@ -133,18 +133,18 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Evalúes cuál de las dos soluciones es más resiliente ante micro-cortes de red y reconexiones automáticas.*
 
-        * *Analices cuál es la práctica estándar en la industria para aplicaciones con una carga moderada de usuarios."*<br>
-        <br> Se adjunta una conversación con Gemini en la que se pide consejo sobre la tecnología a utilizar para la logica de Chats: https://gemini.google.com/share/c8281df4be75
+        * *Analices cuál es la práctica estándar en la industria para aplicaciónes con una carga moderada de usuarios."*<br>
+        <br> Se adjunta una conversación con Gemini en la que se pide consejo sobre la tecnología a utilizar para la lógica de Chats: https://gemini.google.com/share/c8281df4be75
 
 ---
 
 ## 5. Operativa, Comunicación y Activos Visuales
 El flujo de trabajo diario se ha visto beneficiado por la optimización de tareas de soporte:
 
-*   **Generación de Activos:** Creación de recursos gráficos, iconos e imágenes personalizadas para presentaciones de alto impacto mediante el uso de Nano Banana Pro y otros motores generativos (**Fran, Rafa, Dani, Ivan**).
+*   **Generación de Activos:** Creación de recursos gráficos, iconos e imágenes personalizadas para presentaciones de alto impacto mediante el uso de Nano Banana Pro y otros motores generativos (**Fran, Rafa, Dani, Iván**).
     * **Ejemplo**: *"Genera un pack de 6 iconos vectoriales de estilo  y colores corporativos (azul turquesa #00CED1, gris oscuro #333333 y blanco). Los iconos deben representar los siguientes conceptos para una presentación de negocio: 'Análisis de Datos', 'Crecimiento Exponencial', 'Sistema de Chat', 'Gestión de Incidencias' y 'Descubrimiento de Pisos'. Todos los iconos deben tener una estética minimalista, bordes suaves y un fondo transparente para integrarse perfectamente en diapositivas profesionales."*
     * **Ejemplo 2**: Del prompt anterior obtuvimos los primeros emojis, una vez ya teníamos un estilo que nos gustaba hicimos lo siguiente:
-        * Primero abrimos una conversación nueva con gemini donde le pegamos los emojis con el estilo que queremos y usamos el siguiente prompt "Analiza el estilo de este emoji y dame un json en el que se defina el estilo de un solo eomji que tenga esos colores y solo necesite la frase que quiero representar". Conversación con gemini: <https://g.co/gemini/share/1af2e3ff2f4c>  
+        * Primero abrimos una conversación nueva con gemini donde le pegamos los emojis con el estilo que queremos y usamos el siguiente prompt "Analiza el estilo de este emoji y dame un json en el que se defina el estilo de un solo emoji que tenga esos colores y solo necesite la frase que quiero representar". Conversación con gemini: <https://g.co/gemini/share/1af2e3ff2f4c>  
         * En segundo lugar abrimos otra conversación donde activamos el modo nanobanana Pro y pegamos directamente el JSON obtenido. Conversación con gemini: <https://g.co/gemini/share/3b8b36bd227c>
       
 *   **Gestión del Conocimiento:** Conversión de documentación técnica a formato Markdown, redacción de informes profesionales y corrección de inconsistencias semánticas en la documentación del proyecto (**Rafa, Fran, Dani, Iván, Manuel**).
@@ -162,7 +162,8 @@ El flujo de trabajo diario se ha visto beneficiado por la optimización de tarea
 
         * *Cuestiones mi narrativa: ¿Dónde están los puntos más débiles de mi argumento? ¿Qué suposiciones estoy dando por sentado que un inversor podría rebatir?*
 
-        * *Tu objetivo no es validar mi idea, sino ser mi espejo y forzarme a reconstruir la estructura de la presentación para que sea lógica y estratégicamente impecable."*
+        * *Tu objetivo no es validar mi idea, sino ser mi espejo y forzarme a reconstruir la estructura de la presentación para que sea lógica y estratégicamente impecable."*<br>
+        <br> Se adjunta la misma conversación con Gemini que en el punto 4 debido a que también contiene asesoramiento sobre la distribución en presentaciones: https://gemini.google.com/share/60bd8e6dd292
 
 *  **Gestión del Bienestar y Dinámicas de Equipo**: Implementación de metodologías ágiles para el seguimiento del estado anímico del grupo, utilizando la IA para la formación en conceptos de gestión de RR.HH. y la creación de herramientas de seguimiento personalizadas (**Javier Lozano**).
    * **Ejemplo**: *"Actúa como un Agile Coach experto. Explícame el concepto de 'Niko-Niko Calendar' aplicado a equipos de alto rendimiento y genera una plantilla de seguimiento para un equipo de                      16 miembros. La plantilla no debe estar rellena y debe sustituir los días del calendario por 'Eventos' (del 1 al 10), permitiendo evaluar la moral del equipo tras cada hito                         crítico del proyecto. Asegúrate de que el formato sea limpio y fácil de integrar en nuestra documentación de gestión."*<br>
